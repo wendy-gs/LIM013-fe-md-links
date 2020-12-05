@@ -24,7 +24,7 @@ const stats = (objArray) => {
   objArray.forEach((element) => {
     if (element.status >= 400 && element.status < 500) brokenLinks += 1;
   });
-  return { total: totalLinks,unique: uniqueLinks, broken: brokenLinks };
+  return { total: totalLinks, unique: uniqueLinks, broken: brokenLinks };
 };
 module.exports = {
   validate,

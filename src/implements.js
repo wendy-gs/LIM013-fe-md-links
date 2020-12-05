@@ -40,7 +40,7 @@ const getAllLinks = (route) => {
     link.forEach((ancor) => {
       arrayLinks.push({
         href: ancor.href,
-        text: ancor.textContent,
+        text: (ancor.textContent).slice(0, 50),
         file: files,
       });
     });

@@ -53,13 +53,3 @@ describe('getAllFileMD', () => {
     expect(implement.getAllFileMD('test_folder')).toEqual(arrayFileMd);
   });
 });
-/*
-
-const sum = require('../index.js');
-
-describe('sum', () => {
-  it('should...', () => {
-    expect(sum(1, 2)).toBe(3);
-  });
-});
-*/
