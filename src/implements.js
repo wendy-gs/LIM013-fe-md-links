@@ -38,11 +38,13 @@ const getAllLinks = (route) => {
     const dom = new JSDOM(htmlFile);
     const link = dom.window.document.querySelectorAll('a');
     link.forEach((ancor) => {
-      arrayLinks.push({
-        href: ancor.href,
-        text: (ancor.textContent).slice(0, 50),
-        file: files,
-      });
+      if (ancor.href.startsWith('https')) {
+        arrayLinks.push({
+          href: ancor.href,
+          text: (ancor.textContent).slice(0, 50),
+          file: files,
+        });
+      }
     });
   });
   return arrayLinks;

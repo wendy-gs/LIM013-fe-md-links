@@ -22,7 +22,7 @@ Este módulo nos permite analizar todos los links que se encuentre en archivos d
 
 ## 2. Diagrama de flujo  ✍
 
-<img src="src/img/Diagrama.png" alt="Logo">
+<img src="src/img/Diagrama.png" alt="flujo">
 
 ## 3. Instalación  💻
 
@@ -51,7 +51,7 @@ wendy-gs-md md-links <path> <options>
 wendy-gs-md md-links <path>
 ```
 #### Ejemplo
-Imagen
+<img src="src/img/prueba1.png" alt="md-links">
 
 ✔ **--validate / -v : Muestra la validacion de los links**
 
@@ -59,21 +59,33 @@ Imagen
 wendy-gs-md md-links <path> --validate
 ```
 #### Ejemplo
-Imagen
+<img src="src/img/prueba 2.png" alt="validate">
 
 ✔ **--stats / -s : Muestra total de links y únicos**
 ```sh
 wendy-gs-md md-links <path> --stats
 ```
 #### Ejemplo
-Imagen
+<img src="src/img/prueba 3.png" alt="stats">
 
 ✔ **--stats --validate: Muestra total de links, únicos y rotos**
 ```sh
 wendy-gs-md md-links <path> --stats --validate
 ```
 #### Ejemplo
-Imagen
+<img src="src/img/prueba 4.png" alt="validate y stats">
+
+✔ **Si solo se ingresa el comnando md-links saldran las opciones de ayuda**
+```sh
+wendy-gs-md md-links
+```
+<img src="src/img/prueba.png" alt="autoayuda">
+
+✔ **-h / --help: Muestra las opciones disponibles**
+```sh
+wendy-gs-md md-links -h
+```
+<img src="src/img/prueba5.png" alt="ayuda">
 
 ## 5. Contacto 🙋
 

@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/wendy-gs/LIM013-fe-md-links.git"
   },
-  "keywords": [],
+  "keywords": ["links", "markdown", "validate"],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -33,6 +33,7 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^6.2.0",
+    "inquirer": "^7.3.3",
     "jsdom": "^16.4.0",
     "marked": "^1.2.5",
     "node-fetch": "^2.6.1"

@@ -51,10 +51,10 @@ describe('validate', () => {
   it('Should be a function', () => {
     expect(typeof options.validate).toBe('function');
   });
-  it('should return an array of objects with 5 properties', (done) => {
-    options.validate(arrayLinks).then((res) => {
+  // eslint-disable-next-line arrow-body-style
+  it('should return an array of objects with 5 properties', () => {
+    return options.validate(arrayLinks).then((res) => {
       expect(res).toEqual(arrayValidate);
-      done();
     });
   });
 });

@@ -8,7 +8,8 @@ program.version('0.0.1');
 // console.log('hello');
 
 program
-  .command('md-links <path-to-file>')
+// .command('md-links <path-to-file>')
+  .arguments('[path]')
   .description(chalk.hex('#7450A1')('Show links found in files .MD'))
   .option('-v,--validate', 'Check if the found links works')
   .option('-s,--stats', 'Shows basic statistics about links')
