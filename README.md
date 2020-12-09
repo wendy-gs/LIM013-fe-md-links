@@ -9,10 +9,10 @@
 ## Índice
 
 * [1. Sobre el proyecto](#1-Sobre-el-proyecto)
-* [2. Diagrama de flujo](#2-resumen-del-proyecto)
-* [3. Instalación](#3-objetivos-de-aprendizaje)
-* [4. Uso](#4-consideraciones-generales)
-* [5. Contacto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+* [2. Diagrama de flujo](#2-Diagrama-de-flujo)
+* [3. Instalación](#3-Instalación)
+* [4. Uso](#4-Uso)
+* [5. Contacto](#5-Contacto)
 
 ***
 
@@ -22,7 +22,7 @@ Este módulo nos permite analizar todos los links que se encuentre en archivos d
 
 ## 2. Diagrama de flujo  ✍
 
-<img src="https://github.com/wendy-gs/LIM013-fe-md-links/blob/master/src/img/logo.png" alt="flujo">
+<img src="https://github.com/wendy-gs/LIM013-fe-md-links/blob/master/src/img/Diagrama.png" alt="flujo">
 
 ## 3. Instalación  💻
 
@@ -53,7 +53,7 @@ wendy-gs-md md-links <path>
 #### Ejemplo
 <img src="https://github.com/wendy-gs/LIM013-fe-md-links/blob/master/src/img/prueba1.PNG" alt="md-links">
 
-✔ **--validate / -v : Muestra la validacion de los links**
+✔ **--validate / -v : Muestra la validación de los links**
 
 ```sh
 wendy-gs-md md-links <path> --validate
@@ -75,7 +75,7 @@ wendy-gs-md md-links <path> --stats --validate
 #### Ejemplo
 <img src="https://github.com/wendy-gs/LIM013-fe-md-links/blob/master/src/img/prueba%204.PNG" alt="validate y stats">
 
-✔ **Si solo se ingresa el comnando md-links saldran las opciones de ayuda**
+✔ **Si solo se ingresa el comando md-links saldrán las opciones de ayuda**
 ```sh
 wendy-gs-md md-links
 ```
