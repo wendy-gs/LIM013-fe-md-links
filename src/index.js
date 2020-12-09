@@ -70,5 +70,3 @@ const main = (path, options) => {
   }
 };
 module.exports = main;
-
-// md-links md-links ./test_folder --stats --validate
