@@ -14,7 +14,7 @@ const isDirectory = (route) => fs.statSync(route).isDirectory();
 // DeterminaMos si el archivo formato MD
 const isFileMd = (route) => path.extname(route) === '.md';
 
-// CREAMOS LA FUNCION QUE RETORMA TODOS LO ARCHIVOS MD
+// CREAMOS LA FUNCION QUE RETORMA TODOS LO ARCHIVOS MD la ruta
 const getAllFileMD = (route) => {
   let arrayfileMd = [];
   const routeAbs = getPathAbsolute(route);
@@ -38,7 +38,7 @@ const getAllLinks = (route) => {
     const dom = new JSDOM(htmlFile);
     const link = dom.window.document.querySelectorAll('a');
     link.forEach((ancor) => {
-      if (ancor.href.startsWith('https')) {
+      if (ancor.href.startsWith('http')) {
         arrayLinks.push({
           href: ancor.href,
           text: (ancor.textContent).slice(0, 50),

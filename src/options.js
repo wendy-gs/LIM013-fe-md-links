@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 
 // CREAMOS LA FUNCION QUE VALIDA LOS LINKS
 const validate = (objArray) => {
-  const validateLink = objArray.map((array) => fetch(array.href)
+  const validateLink = objArray.map((array) => fetch(array.href) // array de promesas
     .then((res) => ({
       ...array,
       status: res.status,
